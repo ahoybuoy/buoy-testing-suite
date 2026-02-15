@@ -12,14 +12,14 @@ importers:
         specifier: ^0.32.1
         version: 0.32.1
       '@buoy-design/cli':
-        specifier: ^0.3.0
-        version: 0.3.0(@types/node@22.19.3)
+        specifier: 0.3.17
+        version: 0.3.17(@types/node@22.19.3)
       '@buoy-design/core':
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: 0.3.17
+        version: 0.3.17
       '@buoy-design/scanners':
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: 0.3.17
+        version: 0.3.17
       '@octokit/rest':
         specifier: ^21.0.0
         version: 21.1.1
@@ -73,15 +73,15 @@ packages:
     resolution: {integrity: sha512-05WQkdpL9COIMz4LjTxGpPNCdlpyimKppYNoJ5Di5EUObifl8t4tuLuUBBZEpoLYOmfvIWrsp9fCl0HoPRVTdA==}
     engines: {node: '>=6.9.0'}
 
-  '@buoy-design/cli@0.3.0':
-    resolution: {integrity: sha512-UfNaZUmxc4nXBzJ+mC1SD452Gu4tAYfCCgXp0DyHojppl/W/XmMPVdh2RAHd41RY1nduDqoEF2MaquSW06iFRg==}
+  '@buoy-design/cli@0.3.17':
+    resolution: {integrity: sha512-F/9wGMpvpkSQr8jXAKHHTAKLpSkdrP4HIbwG54G/ZonN04TxaQkBug0dI8IGqHeO+3PmqU+Bg2MSsfXnh/BxUA==}
     hasBin: true
 
-  '@buoy-design/core@0.3.0':
-    resolution: {integrity: sha512-MEaeTuVnVwOA+ivOfLGTx6IoR5NkqKit8nHf4M1aYbzyPHpI28/Uy6oUT+4Jnd+WsxSTr8CPVN1XUVs5V1lKPw==}
+  '@buoy-design/core@0.3.17':
+    resolution: {integrity: sha512-7TL6WqfBkF/8ut7PvjVYeaz/yAYJXsPd50bb2pcyKbzOWG9HPlJxRQ3mYpHdE5kHJiazMsvKJEoSUavNq4fJwQ==}
 
-  '@buoy-design/scanners@0.3.0':
-    resolution: {integrity: sha512-tUhhIrik4fA18pHwf8ips6Ret7aMQvdUe06vv9k6kEvuETr+TmLSsi3NUTHajPNCRy0mg7GfU1B0IRVuJBjjhw==}
+  '@buoy-design/scanners@0.3.17':
+    resolution: {integrity: sha512-uzp/Zwz7KG0Y/1hPWj0KXFDOVoh6/xZuCiOTuRQ3vmLVDZolnD98cc78WHgiRxFuSObIUERGt1gNEsHpt5ki7Q==}
 
   '@colors/colors@1.5.0':
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
@@ -616,8 +616,16 @@ packages:
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
+  balanced-match@4.0.2:
+    resolution: {integrity: sha512-x0K50QvKQ97fdEz2kPehIerj+YTeptKF9hyYkKf6egnwmMWAkADiO0QCzSp0R5xN8FTZgYaBfSaue46Ej62nMg==}
+    engines: {node: 20 || >=22}
+
   before-after-hook@3.0.2:
     resolution: {integrity: sha512-Nik3Sc0ncrMK4UUdXQmAnRtzmNQTAAXmXIopizwZ1W1t8QmfJj+zL4OA2I7XPTPW5z5TDqv4hRo/JzouDJnX3A==}
+
+  brace-expansion@5.0.2:
+    resolution: {integrity: sha512-Pdk8c9poy+YhOgVWw1JNN22/HcivgKWwpxKq04M/jTmHyCZn12WPJebZxdjSa5TmBqISrUSgNYU3eRORljfCCw==}
+    engines: {node: 20 || >=22}
 
   bundle-name@4.1.0:
     resolution: {integrity: sha512-tjwM5exMg6BGRI+kNmTntNsvdZS1X8BFYS6tnJ2hdH0kVxM6/eVZ2xy+FqStSWvYmtfFMDLIxurorHwDKfDz5Q==}
@@ -1006,6 +1014,10 @@ packages:
     resolution: {integrity: sha512-enIvLvRAFZYXJzkCYG5RKmPfrFArdLv+R+lbQ53BmIMLIry74bjKzX6iHAm8WYamJkhSSEabrWN5D97XnKObjQ==}
     engines: {node: 20 || >=22}
 
+  minimatch@10.2.0:
+    resolution: {integrity: sha512-ugkC31VaVg9cF0DFVoADH12k6061zNZkZON+aX8AWsR9GhPcErkcMBceb6znR8wLERM2AkkOxy2nWRLpT9Jq5w==}
+    engines: {node: 20 || >=22}
+
   minipass@7.1.2:
     resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==}
     engines: {node: '>=16 || 14 >=14.17'}
@@ -1309,11 +1321,11 @@ snapshots:
 
   '@babel/runtime@7.28.6': {}
 
-  '@buoy-design/cli@0.3.0(@types/node@22.19.3)':
+  '@buoy-design/cli@0.3.17(@types/node@22.19.3)':
     dependencies:
       '@anthropic-ai/sdk': 0.71.2(zod@3.25.76)
-      '@buoy-design/core': 0.3.0
-      '@buoy-design/scanners': 0.3.0
+      '@buoy-design/core': 0.3.17
+      '@buoy-design/scanners': 0.3.17
       '@inquirer/prompts': 8.2.0(@types/node@22.19.3)
       '@octokit/rest': 21.1.1
       chalk: 5.6.2
@@ -1321,6 +1333,7 @@ snapshots:
       commander: 12.1.0
       drizzle-orm: 0.38.4
       glob: 11.1.0
+      minimatch: 10.2.0
       open: 11.0.0
       ora: 8.2.0
       yaml: 2.8.2
@@ -1359,7 +1372,7 @@ snapshots:
       - sqlite3
       - supports-color
 
-  '@buoy-design/core@0.3.0':
+  '@buoy-design/core@0.3.17':
     dependencies:
       glob: 11.1.0
       graphology: 0.26.0(graphology-types@0.24.8)
@@ -1369,9 +1382,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@buoy-design/scanners@0.3.0':
+  '@buoy-design/scanners@0.3.17':
     dependencies:
-      '@buoy-design/core': 0.3.0
+      '@buoy-design/core': 0.3.17
       glob: 11.1.0
       typescript: 5.9.3
       zod: 3.25.76
@@ -1794,7 +1807,15 @@ snapshots:
 
   asynckit@0.4.0: {}
 
+  balanced-match@4.0.2:
+    dependencies:
+      jackspeak: 4.2.3
+
   before-after-hook@3.0.2: {}
+
+  brace-expansion@5.0.2:
+    dependencies:
+      balanced-match: 4.0.2
 
   bundle-name@4.1.0:
     dependencies:
@@ -1982,7 +2003,7 @@ snapshots:
     dependencies:
       foreground-child: 3.3.1
       jackspeak: 4.2.3
-      minimatch: 10.1.1
+      minimatch: 10.2.0
       minipass: 7.1.2
       package-json-from-dist: 1.0.1
       path-scurry: 2.0.1
@@ -2077,6 +2098,10 @@ snapshots:
   minimatch@10.1.1:
     dependencies:
       '@isaacs/brace-expansion': 5.0.0
+
+  minimatch@10.2.0:
+    dependencies:
+      brace-expansion: 5.0.2
 
   minipass@7.1.2: {}
 
